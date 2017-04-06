@@ -18,4 +18,4 @@
  ## Use cases
 
  #### Wallmart
- <img src="images/wallmart/first_page1">
+ <img src="images/wallmart/first_page1.png">
