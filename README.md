@@ -51,10 +51,22 @@ Below are different websites with their pagination. I will try to analyze each c
 
 ### Etsy
 
+The pagination from [etsy.com](https://www.etsy.com) is similar to [wallmart.com](https://www.wallmart.com) pagination. 
+
+On the first page:
+
 <img src="images/etsy/first_page1.png">
+
+In the middle:
 
 <img src="images/etsy/middle1.png">
 
+Further in the middle when hellips appear:
+
 <img src="images/etsy/hellips1.png">
 
+On the last page:
+
 <img src="images/etsy/last_page1.png">
+
+*Summary*: Though it's pretty similar to the previous one it was nice and easy to click on the links due to the borders and padding they have. 
