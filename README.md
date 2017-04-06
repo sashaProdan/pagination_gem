@@ -17,5 +17,6 @@
 
  ## Use cases
 
- #### Wallmart
+ ### Wallmart
+
  <img src="images/wallmart/first_page1.png">
