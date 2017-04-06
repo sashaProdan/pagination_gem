@@ -1,4 +1,4 @@
-### Good Practices for Pagination
+## Good Practices for Pagination
 + Pagination should be intuitive
 + Provide large clickable areas
 + Don't use underlines
@@ -14,4 +14,8 @@
 
  (*The special styling for pages which user already visited is a useful enhancement, but can be included in **Should Have**
  section of project planning*)
- <img src="images/etsy/first_page.png">
+
+ ## Use cases
+
+ #### Wallmart
+ <img src="images/wallmart/first_page1">
