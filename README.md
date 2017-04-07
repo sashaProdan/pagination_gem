@@ -7,21 +7,21 @@
 ## Good Practices for Pagination
 + Pagination should be intuitive
 + Provide Reasonable Page Length
-..* Safe option for search results is to display 25 to 75 items per page. However, this number is very approximate. The real number will depend on the site’s context and industry.
+  * Safe option for search results is to display 25 to 75 items per page. However, this number is very approximate. The real number will depend on the site’s context and industry.
 + Provide large clickable elements
-..* It’s simply essential to make the targets big enough so users will be able to spot and hit them faster and easier.
+  * It’s simply essential to make the targets big enough so users will be able to spot and hit them faster and easier.
 + Don't use underlines
 + Identify the current page
-..* “Where am I?” is one of the fundamental questions users need to answer to successfully navigate. Users rely on visual cues from navigation elements to answer this critical question. That’s why you should identify the current page clearly with a proper styling. Your users need to know where they are right now. The current page should be significantly different in style from the other pages, so that users can easily keep track of where they are. And don’t rely on color alone, ensure that the status is understandable when viewed without color!
+  * “Where am I?” is one of the fundamental questions users need to answer to successfully navigate. Users rely on visual cues from navigation elements to answer this critical question. That’s why you should identify the current page clearly with a proper styling. Your users need to know where they are right now. The current page should be significantly different in style from the other pages, so that users can easily keep track of where they are. And don’t rely on color alone, ensure that the status is understandable when viewed without color!
 + Space out page links
-..* You should make sure that there is enough space between each page link so that a user can’t accidentally click on the wrong page number.
+  * You should make sure that there is enough space between each page link so that a user can’t accidentally click on the wrong page number.
 + Provide **`Previous`** and **`Next`** links
-..* In order to create a decent pagination control, you should clearly separate them from the page numbers and give them sufficient distance or unique styling so that they can't be mistaken as a page.
+  * In order to create a decent pagination control, you should clearly separate them from the page numbers and give them sufficient distance or unique styling so that they can't be mistaken as a page.
 + Don't use **`First`** and **`Last`** links
-..* Some paginations have first and last links that allow users to skip to the first or last page. Sometimes the first and last links are displayed using double arrowheads, which users can mistakenly press thinking that they’re the single arrowheads’s next and previous navigation buttons.
-..* Labeling the links “first” and “last” also causes clicking errors because of its proximity to the “next” and “previous” link.
-..* In most cases, the first and last links aren’t necessary because users prefer to view content in chronological order. There’s no reason for them to start from the last page unless they’re trying to find content from the past that they’ve already seen before.
-..* However, there is practical value in providing the option to go back to the first page. The first page often has the most relevant and recent content. After paginating the user might want to go back to the first page without having to click the “previous” link over and over. **You should display the first page link as the number one, such as “1”.**
+  * Some paginations have first and last links that allow users to skip to the first or last page. Sometimes the first and last links are displayed using double arrowheads, which users can mistakenly press thinking that they’re the single arrowheads’s next and previous navigation buttons.
+  * Labeling the links “first” and “last” also causes clicking errors because of its proximity to the “next” and “previous” link.
+  * In most cases, the first and last links aren’t necessary because users prefer to view content in chronological order. There’s no reason for them to start from the last page unless they’re trying to find content from the past that they’ve already seen before.
+  * However, there is practical value in providing the option to go back to the first page. The first page often has the most relevant and recent content. After paginating the user might want to go back to the first page without having to click the “previous” link over and over. **You should display the first page link as the number one, such as “1”.**
 
 #### The User must know:
 + Where they are
