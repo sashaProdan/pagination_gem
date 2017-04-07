@@ -62,7 +62,7 @@ An interesting example of organizing pages.
   * There is **`First`** link
   * 5 page links displayed
   * double right pointing angles link indicating the links between page 5 and page 10
-  * links 10, 20, 30 displayed for users who want to jump over some amount of pages if there are alot of results
+  * links 10, 20, 30 displayed for users who want to jump over some amount of pages if there are a lot of results
   * hellip link indicating more pages
   * **`Last`** link
 
