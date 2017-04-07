@@ -14,9 +14,13 @@
 + Identify the current page
   * “Where am I?” is one of the fundamental questions users need to answer to successfully navigate. Users rely on visual cues from navigation elements to answer this critical question. That’s why you should identify the current page clearly with a proper styling. Your users need to know where they are right now. The current page should be significantly different in style from the other pages, so that users can easily keep track of where they are. And don’t rely on color alone, ensure that the status is understandable when viewed without color!
 + Space out page links
-  * You should make sure that there is enough space between each page link so that a user can’t accidentally click on the wrong page number.
+  * There should be enough space between each page link so that a user can’t accidentally click on the wrong page number.
 + Provide **`Previous`** and **`Next`** links
   * In order to create a decent pagination control, you should clearly separate them from the page numbers and give them sufficient distance or unique styling so that they can't be mistaken as a page.
+
+  (Use Page Numbers or Next/Previous combination?
+  + In general, you should display page numbers when the amount of pages are small, but go with a simple previous and next buttons when it’s big.)
+
 + Don't use **`First`** and **`Last`** links
   * Some paginations have first and last links that allow users to skip to the first or last page. Sometimes the first and last links are displayed using double arrowheads, which users can mistakenly press thinking that they’re the single arrowheads’s next and previous navigation buttons.
   * Labeling the links “first” and “last” also causes clicking errors because of its proximity to the “next” and “previous” link.
@@ -31,10 +35,13 @@
 (*The special styling for pages which user already visited is a useful enhancement, but can be included in **Should Have**
 section of project planning*)
 
+Here is an example
+<img src="images/visited_links.png">
+
 ## Use cases
 Below are different websites with their pagination. I will try to analyze each case according to good practices mentioned at the top of this document.
 
-
+1.<img src="images/confusing_last_link.png">
 
 ### Wallmart
 
