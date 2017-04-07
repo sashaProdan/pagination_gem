@@ -35,13 +35,39 @@
 (*The special styling for pages which user already visited is a useful enhancement, but can be included in **Should Have**
 section of project planning*)
 
-Here is an example
+Here is an example of pagination with visited links
+### [Smashing Magazine](https://www.smashingmagazine.com)
 <img src="images/visited_links.png">
+
+The only thing I didn't like about this example in particular, they look like they are disabled links but it's just the matter of styling them properly.
 
 ## Use cases
 Below are different websites with their pagination. I will try to analyze each case according to good practices mentioned at the top of this document.
 
-1.<img src="images/confusing_last_link.png">
+### [Naldz Graphics](http://naldzgraphics.net/)
+<img src="images/confusing_last_link.png">
+
+This pagination has confusing **`Next`** and **`Last`** links. The double right pointing angles on both links make it unclear what those links are really for.
+
+### [Flickr](https://www.flickr.com/)
+<img src="images/flickr.png">
+
+Just an example of how **`Previous`** and **`Next`** links are spaced out from page links.
+- There is no **`Last`** link but there is a hellip link if the user wants to see next set of pages.
+
+### [Vodafone](https://www.vodafone.de)
+<img src="images/vodafone.png">
+
+An interesting example of organizing pages.
+  * There is **`First`** link
+  * 5 page links displayed
+  * double right pointing angles link indicating the links between page 5 and page 10
+  * links 10, 20, 30 displayed for users who want to jump over some amount of pages if there are alot of results
+  * hellip link indicating more pages
+  * **`Last`** link
+
+Some paginations use a last page number as a **`Last`** link, some use **`Last`** link itself. This depends on the website's or app's content and needs. When there are a lot of pages users usually don't visit the last pages. If it's important that the user visits the last pages (though it doesn't garantee that), it's better to use hellip link + **`Last`** link. 
+If it isn't then instead of **`Last`** link it's preferred to use last page number link.
 
 ### Wallmart
 
